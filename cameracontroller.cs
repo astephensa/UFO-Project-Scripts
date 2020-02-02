@@ -18,9 +18,4 @@ void Start()
     {
         transform.position = player.transform.position + offset;
     }
-    void FixedUpdate() 
-    {
-        if (Input.GetKey("escape"))
-            Application.Quit();
-    }
 }
